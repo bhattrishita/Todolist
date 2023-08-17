@@ -1,38 +1,63 @@
-.App {
+.main-body{
+  max-width: 540px;
+  border: 2px solid #000;
+  background: orange;
+  margin: 70px auto 20px;
+  border-radius: 15px;
+}
+.todo-app{
+    padding: 60px;
+}
+li{
+  list-style: none;
+}
+.task-list {
+  text-align: left;
+  padding: 0;
+}
+.add-task, h1{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputtext{
+  border: 1px solid #f3f3f3;
+  margin-bottom: 3px;
+  padding: 11px;
+  width: 80%;
+  margin-right: 15px;
+  border-radius: 21px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.add-btn{
+  border-radius: 50px;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  font-size: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.task-status{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 1px 20px;
+}
+.clr-btn{
+  background: #4caf50;
+  padding: 15px;
+  font-size: 15px;
+  border: 1px solid #4caf50;
+  border-radius: 50px;
+}
+.todo-app{
+  text-align: center;
+}
+.clr-btn:hover{
+  cursor:pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.checked{
+  margin-right: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete-btn{
+  float: right;
+}
+.todolist{
+  font-size: 18px;
+  padding: 10px 15px;
 }
